@@ -1,0 +1,11 @@
+---
+application:
+  name: "wordstonumberapi"
+  project: "wordstonumberapi"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-wordstonumberapi"
+  routes:
+  - application_name: "wordstonumberapi"
+    paths:
+    - "/*"
